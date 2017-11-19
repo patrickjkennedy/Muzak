@@ -4,7 +4,10 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <!-- Background color for SongsActivityongs category -->
+    <!-- Background color for SongsActivity category -->
     <color name="category_songs">#16AFCA</color>
+
+    <!-- Background color for AlbumsActivity category -->
+    <color name="category_albums">#800000</color>
 
 </resources>

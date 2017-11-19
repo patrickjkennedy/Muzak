@@ -13,4 +13,10 @@
         android:text="Songs"
         android:background="@color/category_songs"/>
 
+    <TextView
+        style="@style/CategoryStyle"
+        android:id="@+id/albums"
+        android:text="Albums"
+        android:background="@color/category_albums"/>
+
 </LinearLayout>

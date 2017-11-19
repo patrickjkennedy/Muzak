@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/album_image_view"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginRight="8dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/placeholder" />
+
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:layout_toRightOf="@id/album_image_view"
+            android:textColor="@android:color/black"
+            tools:text="Title" />
+
+        <TextView
+            android:id="@+id/artist_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_text_view"
+            android:layout_toRightOf="@id/album_image_view"
+            android:paddingTop="4dp"
+            android:textColor="@android:color/black"
+            tools:text="Artist" />
+
+        <TextView
+            android:paddingTop="4dp"
+            android:id="@+id/duration_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/artist_text_view"
+            android:layout_toRightOf="@id/album_image_view"
+            android:textColor="@android:color/black"
+            tools:text="Duration" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

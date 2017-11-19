@@ -24,10 +24,26 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link SongsActivity}
-                Intent numbersIntent = new Intent(MainActivity.this, SongsActivity.class);
+                Intent i = new Intent(MainActivity.this, SongsActivity.class);
 
                 // Start the new activity
-                startActivity(numbersIntent);
+                startActivity(i);
+            }
+        });
+
+        // Grab the AlbumsActivity view
+        TextView albums = (TextView) findViewById(R.id.albums);
+
+        // Set a click listener on that View
+        albums.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the numbers category is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link SongsActivity}
+                Intent i = new Intent(MainActivity.this, AlbumsActivity.class);
+
+                // Start the new activity
+                startActivity(i);
             }
         });
 
