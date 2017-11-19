@@ -44,7 +44,20 @@ public class SongsActivity extends AppCompatActivity {
                 // Get the data for the song that was clicked
                 Song song =  songs.get(i);
 
+                    // Create a parcelable bundle to pass to the next intent
 
+                    Bundle bundle = new Bundle();
+                    bundle.putString("title", song.getTitle());
+                    bundle.putString("artist", song.getArtist());
+                    bundle.putString("album", song.getAlbum());
+                    bundle.putInt("album_cover", song.getImageResourceId());
+                    bundle.putString("song_duration", song.getDuration());
+
+                    // Send bundle through Intent
+                    nowPlayingIntent.putExtras(bundle);
+
+                    // Start the new activity
+                    startActivity(nowPlayingIntent);
             }
         });
 

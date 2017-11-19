@@ -47,5 +47,21 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // Grab the ArtistsActivity view
+        TextView artists = (TextView) findViewById(R.id.artists);
+
+        // Set a click listener on that View
+        artists.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the numbers category is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link SongsActivity}
+                Intent i = new Intent(MainActivity.this, ArtistsActivity.class);
+
+                // Start the new activity
+                startActivity(i);
+            }
+        });
+
     }
 }
