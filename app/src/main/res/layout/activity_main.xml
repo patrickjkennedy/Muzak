@@ -10,19 +10,19 @@
     <TextView
         style="@style/CategoryStyle"
         android:id="@+id/songs"
-        android:text="Songs"
+        android:text="@string/songs"
         android:background="@color/category_songs"/>
 
     <TextView
         style="@style/CategoryStyle"
         android:id="@+id/albums"
-        android:text="Albums"
+        android:text="@string/albums"
         android:background="@color/category_albums"/>
 
     <TextView
         style="@style/CategoryStyle"
         android:id="@+id/artists"
-        android:text="Artists"
+        android:text="@string/artists"
         android:background="@color/category_artists"/>
 
 </LinearLayout>

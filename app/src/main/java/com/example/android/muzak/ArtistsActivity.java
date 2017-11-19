@@ -19,10 +19,10 @@ public class ArtistsActivity extends AppCompatActivity {
 
         //Create artist data
 
-        artists.add(new Artist("CHVRCHES", R.drawable.every_open_eye));
-        artists.add(new Artist("Tom Waits", R.drawable.blue_valentine));
-        artists.add(new Artist("Flook", R.drawable.flook_live));
-        artists.add(new Artist("Tegan and Sara", R.drawable.love_you_to_death));
+        artists.add(new Artist("CHVRCHES", R.drawable.chvrches));
+        artists.add(new Artist("Tom Waits", R.drawable.tom_waits));
+        artists.add(new Artist("Flook", R.drawable.flook));
+        artists.add(new Artist("Tegan and Sara", R.drawable.tegan_and_sara));
 
         ArtistAdapter adapter = new ArtistAdapter(this, artists);
 
