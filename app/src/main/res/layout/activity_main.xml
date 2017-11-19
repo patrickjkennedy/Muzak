@@ -6,23 +6,28 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.android.muzak.MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/library"
+        android:textSize="48sp"
+        android:paddingTop="12dp"
+        android:paddingLeft="12dp"
+        android:textColor="@android:color/black"/>
 
     <TextView
         style="@style/CategoryStyle"
         android:id="@+id/songs"
-        android:text="@string/songs"
-        android:background="@color/category_songs"/>
+        android:text="@string/songs"/>
 
     <TextView
         style="@style/CategoryStyle"
         android:id="@+id/albums"
-        android:text="@string/albums"
-        android:background="@color/category_albums"/>
+        android:text="@string/albums"/>
 
     <TextView
         style="@style/CategoryStyle"
         android:id="@+id/artists"
-        android:text="@string/artists"
-        android:background="@color/category_artists"/>
+        android:text="@string/artists"/>
 
 </LinearLayout>
