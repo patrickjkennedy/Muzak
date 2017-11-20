@@ -17,7 +17,7 @@
             android:layout_marginRight="8dp"
             android:scaleType="fitXY"
             android:src="@drawable/placeholder"
-            android:contentDescription="TODO" />
+            tools:contentDescription="placeholder image" />
 
         <TextView
             android:id="@+id/title_text_view"
