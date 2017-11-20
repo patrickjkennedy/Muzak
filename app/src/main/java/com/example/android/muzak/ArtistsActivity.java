@@ -8,14 +8,12 @@ import java.util.ArrayList;
 
 public class ArtistsActivity extends AppCompatActivity {
 
-    private ArrayList<Artist> artists;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
 
-        artists = new ArrayList<Artist>();
+        ArrayList<Artist> artists = new ArrayList<Artist>();
 
         //Create artist data
 

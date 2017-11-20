@@ -11,14 +11,12 @@ import java.util.ArrayList;
 
 public class AlbumsActivity extends AppCompatActivity {
 
-    private ArrayList<Album> albums;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
 
-        albums = new ArrayList<Album>();
+        ArrayList<Album> albums = new ArrayList<Album>();
 
         //Create album data
 

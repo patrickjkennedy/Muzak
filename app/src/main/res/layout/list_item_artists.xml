@@ -16,7 +16,8 @@
             android:layout_height="64dp"
             android:layout_marginRight="8dp"
             android:scaleType="fitXY"
-            android:src="@drawable/placeholder" />
+            android:src="@drawable/placeholder"
+            android:contentDescription="TODO" />
 
         <TextView
             android:id="@+id/name_text_view"
